@@ -26,7 +26,7 @@ public class base {
 
 
         if (browserName.equals("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "E:\\Bioprotection_Portal\\Drivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Neosoft\\git\\Bio-Protection-Portal\\Drivers\\chromedriver.exe");
 
             driver = new ChromeDriver();
             driver.manage().window().maximize();
